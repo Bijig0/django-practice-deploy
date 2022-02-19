@@ -1,0 +1,10 @@
+{%  extends 'blogs/base.html' %}
+{% block content %}
+            <fieldset class="form-group">
+            <img class="rounded-circle account-img" src="{{ user.profile.profile_pic.url }}">
+                <legend class="border-bottom mb-4">
+                    {{ user.username }}
+                    {{ user.email }}
+                </legend>
+            </fieldset>
+{% endblock content %}

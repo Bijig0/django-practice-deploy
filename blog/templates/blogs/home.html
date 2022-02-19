@@ -1,0 +1,10 @@
+{% extends 'blogs/base.html' %}
+{% block content %}
+<h1>Blog Home</h1>
+    {% for post in otherposts %}
+        <h2>{{ post.name }}</h2>
+        <p>By {{ post.on_del }}</p>
+
+    {% endfor %}
+{% endblock content %}
+

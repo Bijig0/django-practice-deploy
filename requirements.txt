@@ -98,7 +98,7 @@ pickleshare==0.7.5
 Pillow==7.0.0
 pipenv==2020.11.15
 pipx==0.16.2.1
-Pmw==2.0.2
+Pmw==2.0.1
 preppy==3.0.3
 prompt-toolkit==3.0.16
 protobuf==3.12.4

@@ -109,7 +109,7 @@ pyasn1==0.4.8
 pyasn1-modules==0.2.8
 pycodestyle==2.6.0
 pycparser==2.20
-pygame==1.9.6
+pygame==1.9.4
 Pygments==2.8.0
 PyInstaller==3.6
 PyJWT==2.0.1
